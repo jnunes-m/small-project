@@ -1,7 +1,8 @@
 name: GitHub Action Demo
+on: [pull_request]
 
 jobs:
-  Log-Message:
+  build:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello from small-project"

@@ -11,9 +11,8 @@ jobs:
         uses: checkmarxDev/ast-github-action@master #Github Action version
         with:
           project_name: small-project
-          base_uri: https://ast-master.dev.cxast.net/
+          base_uri: https://ast.ppe.cxast.net/
           branch: ${{ github.head_ref }}
-          cx_tenant: galactica
+          cx_tenant: research_tenant
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
-          additional_params: --threshold "sast-high=4;sca-high=1;kics-high=1"

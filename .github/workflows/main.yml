@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Checkmarx AST CLI Action
-        uses: checkmarxDev/ast-github-action@master #Github Action version
+        uses: Checkmarx/ast-github-action@2.0.20 #Github Action version
         with:
           project_name: small-project
           base_uri: https://ast.ppe.cxast.net/

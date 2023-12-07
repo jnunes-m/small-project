@@ -10,7 +10,7 @@ Damn Small Vulnerable Web [![Python 3.x](https://img.shields.io/badge/python-3.x
 Quick start
 ----
 
-Run the following aaa:
+Run the following aaabbb:
 ```
 $ python3 dsvw.py 
 Damn Small Vulnerable Web (DSVW) < 100 LoC (Lines of Code) #v0.2a

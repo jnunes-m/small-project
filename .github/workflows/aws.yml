@@ -1,6 +1,10 @@
 name: AWS
 on: [workflow_dispatch]
 
+permissions:
+  id-token: write   # This is required for requesting the JWT
+  contents: read    # This is required for actions/checkout
+  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,3 +14,4 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::822112283600:role/CnasTargetRole
           aws-region: us-east-1
+          role-session-name: samplerolesession

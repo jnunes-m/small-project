@@ -9,3 +9,4 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::822112283600:role/CnasTargetRole
+          aws-region: eu-central-1

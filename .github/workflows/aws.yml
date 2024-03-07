@@ -1,4 +1,4 @@
-name: Log action
+name: AWS
 on: [workflow_dispatch]
 
 jobs:

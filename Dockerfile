@@ -3,7 +3,10 @@
 FROM alpine:3.11
 USER pedro
 
-RUN apk --no-cache add git python3 py-lxml \
+RUN apk --no-cache add \
+    git=2.24.1-r0 \
+    python3=3.8.1-r0 \
+    py-lxml=4.4.2-r0 \
     && rm -rf /var/cache/apk/*
 
 WORKDIR /

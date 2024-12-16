@@ -6,9 +6,9 @@
   "main": "server.js",
   "dependencies": {
     "handlebars": "4.7.9",
-    "lodash": "4.17.11",
+    "lodash": "4.17.21",
     "node-ipc": "9.2.2",
-    "ua-parser-js": "0.7.28",
+    "ua-parser-js": "0.7.33",
     "ua-parser-js": "0.7.29",
     "event-pubsub": "5.0.3",
     "momnet": "2.29.1",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "async": "^2.0.0-rc.4",
     "grunt": "^1.0.1",
-    "qs": "6.0.0",
+    "qs": "6.2.4",
     "js-yaml": "3.13.1"
   }
 }

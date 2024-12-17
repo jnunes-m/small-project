@@ -5,10 +5,10 @@
   "description": "SCS Examples to be cautious of... and protected by Checkmarx for...",
   "main": "server.js",
   "dependencies": {
-    "scs": "0.0.1"
+    "scs": "0.0.20"
   },
   "scripts": {},
   "devDependencies": {
-    "js-yaml": "3.13.1"
+    "js-yaml": "4.1.0"
   }
 }
